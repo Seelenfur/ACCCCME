@@ -18,12 +18,12 @@
 
 <tiles-definitions>
 	
-	<definition name="anonymous/sanchezbulletin/form" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/sanchezbulletin/form.jsp"/>
+	<definition name="anonymous/sanchez-bulletin/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/sanchez-bulletin/form.jsp"/>
 	</definition>
 	
-	<definition name="anonymous/sanchezbulletin/list" extends="master">		
-		<put-attribute name="body" type="template" value="../anonymous/sanchezbulletin/list.jsp" />
+	<definition name="anonymous/sanchez-bulletin/list" extends="master">		
+		<put-attribute name="body" type="template" value="../anonymous/sanchez-bulletin/list.jsp" />
 	</definition>
 
 </tiles-definitions>

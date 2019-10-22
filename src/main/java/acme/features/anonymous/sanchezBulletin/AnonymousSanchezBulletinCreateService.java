@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.sanchezbulletin;
+package acme.features.anonymous.sanchezBulletin;
 
 import java.util.Date;
 
@@ -39,8 +39,8 @@ public class AnonymousSanchezBulletinCreateService implements AbstractCreateServ
 		moment = new Date(System.currentTimeMillis() - 1);
 
 		result = new SanchezBulletin();
-		result.setAuthor("John Doe");
-		result.setText("Loren ipsum!");
+		result.setAuthor("Sergio");
+		result.setText("Hola");
 		result.setMoment(moment);
 
 		return result;

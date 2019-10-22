@@ -10,7 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.sanchezbulletin;
+package acme.features.anonymous.sanchezBulletin;
 
 import javax.annotation.PostConstruct;
 
@@ -24,7 +24,7 @@ import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/sanchezbulletin/")
+@RequestMapping("/anonymous/sanchez-bulletin/")
 public class AnonymousSanchezBulletinController extends AbstractController<Anonymous, SanchezBulletin> {
 
 	// Internal state ---------------------------------------------------------

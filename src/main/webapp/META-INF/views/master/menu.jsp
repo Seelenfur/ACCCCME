@@ -26,9 +26,10 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-4" action="http://www.twitch.com/" />
 
 			<acme:menu-separator />
-			
-			<acme:menu-suboption code="master.menu.anonymous.bulletin" action="/anonymous/sanchezbulletin/list" />
-			
+
+			<acme:menu-suboption code="master.menu.anonymous.list-bulletin" action="/anonymous/sanchez-bulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.create-bulletin" action="/anonymous/sanchez-bulletin/create" />
+
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

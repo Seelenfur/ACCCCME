@@ -43,4 +43,10 @@
 		<property name="text" value="My first bulletin" />
 		<property name="moment" value="2019/09/06 01:00" />
 	</bean>
+	
+	<bean id="sanchezbulletin02" class="acme.entities.bulletins.SanchezBulletin">
+		<property name="author" value="Sergio Sánchez" />
+		<property name="text" value="My second bulletin" />
+		<property name="moment" value="2019/09/09 02:00" />
+	</bean>
 </beans>
