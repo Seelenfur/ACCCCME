@@ -38,15 +38,15 @@
 	
 	<!-- María's Bulletin -->
 
-	<bean id="marinBulletin01" class="acme.entities.shouts.MarinBulletin">
+	<bean id="marinBulletin01" class="acme.entities.bulletins.MarinBulletin">
 		<property name="author" value="María Marín" />
 		<property name="text" value="Marin Bulletin 01" />
 		<property name="moment" value="2019/09/09 10:00" />
 	</bean>
 	
-	<bean id="marinBulletin02" class="acme.entities.shouts.MarinBulletin">
+	<bean id="marinBulletin02" class="acme.entities.bulletins.MarinBulletin">
 		<property name="author" value="María Marín" />
-		<property name="text" value="Marin Bulletin 01" />
+		<property name="text" value="Marin Bulletin 02" />
 		<property name="moment" value="2019/09/09 12:00" />
 	</bean>
 
