@@ -35,4 +35,19 @@
 		<property name="text" value="Shout 4" />
 		<property name="moment" value="2019/09/06 01:00" />
 	</bean>
+	
+	<!-- Gonzalez bulletin -->
+	
+	
+	<bean id="gonzalezbulletin01" class="acme.entities.bulletins.GonzalezBulletin">
+		<property name="author" value="Alejandro Gonzalez" />
+		<property name="text" value="Bulletin 1" />
+		<property name="moment" value="2019/09/01 05:00" />
+	</bean>
+	
+	<bean id="gonzalezbulletin02" class="acme.entities.bulletins.GonzalezBulletin">
+		<property name="author" value="Alejandro Gonzalez" />
+		<property name="text" value="Bulletin 2" />
+		<property name="moment" value="2019/09/18 14:00" />
+	</bean>
 </beans>
