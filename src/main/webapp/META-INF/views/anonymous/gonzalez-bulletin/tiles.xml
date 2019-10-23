@@ -18,12 +18,12 @@
 
 <tiles-definitions>
 	
-	<definition name="anonymous/gonzalezbulletin/form" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/gonzalezbulletin/form.jsp"/>
+	<definition name="anonymous/gonzalez-bulletin/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/gonzalez-bulletin/form.jsp"/>
 	</definition>
 	
-	<definition name="anonymous/gonzalezbulletin/list" extends="master">		
-		<put-attribute name="body" type="template" value="../anonymous/gonzalezbulletin/list.jsp" />
+	<definition name="anonymous/gonzalez-bulletin/list" extends="master">		
+		<put-attribute name="body" type="template" value="../anonymous/gonzalez-bulletin/list.jsp" />
 	</definition>
 
 </tiles-definitions>

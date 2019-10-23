@@ -39,8 +39,8 @@ public class AnonymousGonzalezBulletinCreateService implements AbstractCreateSer
 		moment = new Date(System.currentTimeMillis() - 1);
 
 		result = new GonzalezBulletin();
-		result.setAuthor("John Doe");
-		result.setText("Loren ipsum!");
+		result.setAuthor("Alejandro");
+		result.setText("Hola");
 		result.setMoment(moment);
 
 		return result;
