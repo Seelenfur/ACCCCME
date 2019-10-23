@@ -331,6 +331,23 @@ SanchezBulletin
     
     <additional_attributes/>
   </element>
+  
+    <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>66</x>
+      <y>360</y>
+      <w>204</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+CaceresBulletin
+--
++ moment: Date{Temporal(TIMESTAMP), Past}
++ author: String {NotBlank}
++ text: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
 
   <element>
     <id>UMLClass</id>

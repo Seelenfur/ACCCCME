@@ -35,6 +35,21 @@
 		<property name="text" value="Shout 4" />
 		<property name="moment" value="2019/09/06 01:00" />
 	</bean>
+  
+  	<!-- Caceres bulletin -->
+	
+	
+	<bean id="caceresbulletin01" class="acme.entities.bulletins.CaceresBulletin">
+		<property name="author" value="David Caceres" />
+		<property name="text" value="Bulletin 1" />
+		<property name="moment" value="2019/09/06 01:00" />
+	</bean>
+	
+	<bean id="caceresbulletin02" class="acme.entities.bulletins.CaceresBulletin">
+		<property name="author" value="David Caceres" />
+		<property name="text" value="Bulletin 2" />
+		<property name="moment" value="2019/09/07 09:00" />
+	</bean>
 
 	<!-- María's Bulletin -->
 

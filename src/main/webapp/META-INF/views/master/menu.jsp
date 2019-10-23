@@ -33,6 +33,11 @@
       <acme:menu-suboption code="master.menu.anonymous.list-bulletin-1" action="/anonymous/marin-bulletin/list"/>
     	<acme:menu-suboption code="master.menu.anonymous.create-bulletin-1" action="/anonymous/marin-bulletin/create"/>
 
+<acme:menu-separator />
+
+			<acme:menu-suboption code="master.menu.anonymous.list-bulletin" action="/anonymous/caceres-bulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.create-bulletin" action="/anonymous/caceres-bulletin/create" />
+
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
