@@ -35,9 +35,18 @@ master.menu.anonymous.favourite-link-2 = Sergio's link
 master.menu.anonymous.favourite-link-3 = David's link
 master.menu.anonymous.favourite-link-4 = Alejandro's link
 
-master.menu.anonymous.list-bulletin = Alejandro's bulletin
-master.menu.anonymous.create-bulletin = Publish in Alejandro's bulletin
 
+master.menu.anonymous.list-bulletin-1 = David's bulletin
+master.menu.anonymous.create-bulletin-1 = Publish in David's bulletin
+
+master.menu.anonymous.list-bulletin-2 = Alejandro's bulletin
+master.menu.anonymous.create-bulletin-2 = Publish in Alejandro's bulletin
+
+master.menu.anonymous.list-bulletin-3 = Maria's bulletin
+master.menu.anonymous.create-bulletin-3 = Publish in Maria's bulletin
+
+master.menu.anonymous.list-bulletin-4 = Sergio's bulletin
+master.menu.anonymous.create-bulletin-4 = Publish in Sergio's bulletin
 
 # master.menu.administrator ###################################################
 
