@@ -11,7 +11,7 @@
 	<import resource="conversion-service.xml" />
 
 	<!-- Shouts -->
-
+	
 	<bean id="shout01" class="acme.entities.shouts.Shout">
 		<property name="author" value="Sergio S" />
 		<property name="text" value="Shout 1" />
@@ -36,6 +36,20 @@
 		<property name="moment" value="2019/09/06 01:00" />
 	</bean>
 
+	<!-- María's Bulletin -->
+
+	<bean id="marinBulletin01" class="acme.entities.bulletins.MarinBulletin">
+		<property name="author" value="María Marín" />
+		<property name="text" value="Marin Bulletin 01" />
+		<property name="moment" value="2019/09/09 10:00" />
+	</bean>
+	
+	<bean id="marinBulletin02" class="acme.entities.bulletins.MarinBulletin">
+		<property name="author" value="María Marín" />
+		<property name="text" value="Marin Bulletin 02" />
+		<property name="moment" value="2019/09/09 12:00" />
+	</bean>
+
 	<!-- Sanchez bulletin -->
 
 	<bean id="sanchezbulletin01" class="acme.entities.bulletins.SanchezBulletin">
@@ -49,4 +63,5 @@
 		<property name="text" value="My second bulletin" />
 		<property name="moment" value="2019/09/09 02:00" />
 	</bean>
+
 </beans>
