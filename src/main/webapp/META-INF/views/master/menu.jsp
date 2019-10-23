@@ -25,6 +25,11 @@
       <acme:menu-suboption code="master.menu.anonymous.favourite-link-3" action="http://www.youtube.com/"/>
       <acme:menu-suboption code="master.menu.anonymous.favourite-link-4" action="http://www.twitch.com/"/>
 
+<acme:menu-separator />
+
+			<acme:menu-suboption code="master.menu.anonymous.list-bulletin" action="/anonymous/caceres-bulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.create-bulletin" action="/anonymous/caceres-bulletin/create" />
+
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
