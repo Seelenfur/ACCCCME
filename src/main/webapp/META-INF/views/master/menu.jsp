@@ -30,13 +30,15 @@
 			<acme:menu-suboption code="master.menu.anonymous.list-bulletin-2" action="/anonymous/sanchez-bulletin/list" />
 			<acme:menu-suboption code="master.menu.anonymous.create-bulletin-2" action="/anonymous/sanchez-bulletin/create" />
       
-      <acme:menu-suboption code="master.menu.anonymous.list-bulletin-1" action="/anonymous/marin-bulletin/list"/>
-    	<acme:menu-suboption code="master.menu.anonymous.create-bulletin-1" action="/anonymous/marin-bulletin/create"/>
+			<acme:menu-separator />
+			
+      			<acme:menu-suboption code="master.menu.anonymous.list-bulletin-1" action="/anonymous/marin-bulletin/list"/>
+    			<acme:menu-suboption code="master.menu.anonymous.create-bulletin-1" action="/anonymous/marin-bulletin/create"/>
 
-<acme:menu-separator />
+			<acme:menu-separator />
 
-			<acme:menu-suboption code="master.menu.anonymous.list-bulletin" action="/anonymous/caceres-bulletin/list" />
-			<acme:menu-suboption code="master.menu.anonymous.create-bulletin" action="/anonymous/caceres-bulletin/create" />
+			<acme:menu-suboption code="master.menu.anonymous.list-bulletin-3" action="/anonymous/caceres-bulletin/list" />
+			<acme:menu-suboption code="master.menu.anonymous.create-bulletin-3" action="/anonymous/caceres-bulletin/create" />
 
 		</acme:menu-option>
 
