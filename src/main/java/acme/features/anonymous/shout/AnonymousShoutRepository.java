@@ -10,19 +10,19 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.marinBulletin;
+package acme.features.anonymous.shout;
 
 import java.util.Collection;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.bulletins.MarinBulletin;
+import acme.entities.shouts.Shout;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AnonymousMarinBulletinRepository extends AbstractRepository {
+public interface AnonymousShoutRepository extends AbstractRepository {
 
-	@Query("select m from MarinBulletin m")
-	Collection<MarinBulletin> findMany();
+	@Query("select s from Shout s")
+	Collection<Shout> findMany();
 }

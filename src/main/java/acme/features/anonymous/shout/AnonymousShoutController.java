@@ -10,7 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.marinBulletin;
+package acme.features.anonymous.shout;
 
 import javax.annotation.PostConstruct;
 
@@ -18,21 +18,21 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.bulletins.MarinBulletin;
+import acme.entities.shouts.Shout;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/marin-bulletin/")
-public class AnonymousMarinBulletinController extends AbstractController<Anonymous, MarinBulletin> {
+@RequestMapping("/anonymous/shout/")
+public class AnonymousShoutController extends AbstractController<Anonymous, Shout> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private AnonymousMarinBulletinListService	listService;
+	private AnonymousShoutListService	listService;
 	@Autowired
-	private AnonymousMarinBulletinCreateService	createService;
+	private AnonymousShoutCreateService	createService;
 
 
 	// Constructors -----------------------------------------------------------

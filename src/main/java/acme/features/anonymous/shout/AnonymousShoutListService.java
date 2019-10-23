@@ -10,42 +10,42 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.marinBulletin;
+package acme.features.anonymous.shout;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.MarinBulletin;
+import acme.entities.shouts.Shout;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousMarinBulletinListService implements AbstractListService<Anonymous, MarinBulletin> {
+public class AnonymousShoutListService implements AbstractListService<Anonymous, Shout> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AnonymousMarinBulletinRepository repository;
+	AnonymousShoutRepository repository;
 
 
 	// AbstractListService<Administrator, Shout interface --------------
 
 	@Override
-	public boolean authorise(final Request<MarinBulletin> request) {
+	public boolean authorise(final Request<Shout> request) {
 		assert request != null;
 
 		return true;
 	}
 
 	@Override
-	public Collection<MarinBulletin> findMany(final Request<MarinBulletin> request) {
+	public Collection<Shout> findMany(final Request<Shout> request) {
 		assert request != null;
 
-		Collection<MarinBulletin> result;
+		Collection<Shout> result;
 
 		result = this.repository.findMany();
 
@@ -53,7 +53,7 @@ public class AnonymousMarinBulletinListService implements AbstractListService<An
 	}
 
 	@Override
-	public void unbind(final Request<MarinBulletin> request, final MarinBulletin entity, final Model model) {
+	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
